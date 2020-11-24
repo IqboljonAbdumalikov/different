@@ -79,6 +79,7 @@
 }
 
 .main-article {
+	margin: 80px;
 	width: 45%;
 }
 .main-title {
@@ -125,5 +126,135 @@
 }
 
 .input-button:active {
-	background-color: green;
+	background-color: blue;
+}
+.our .container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.our .header {
+  width: 1140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.our-title {
+  text-transform: capitalize;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.our-link {
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid lightblue;
+  padding: 10px 10px;
+  color: lightblue;
+  border-radius: 10px;
+}
+
+.our-title-hr {
+  display: inline-block;
+  width: 80px;
+  height: 4px;
+  background-color: rgb(0, 110, 200);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+
+.our-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 40px;
+
+}
+
+.our-item {
+  margin-bottom: 30px;
+  border-radius: 20px;
+  position: relative;
+  border: 1px solid rgba(250,250,251,0.6);
+}
+
+.our-img {
+  width: 350px;
+  height: 250px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.our-item-cost {
+  position: absolute;
+  right: 20px;
+  bottom: 180px;
+  background-color: rgb(0, 110, 200);
+  padding: 7px 14px;
+  border-radius: 4px;
+  color: white;
+  font-size: 12px;
+}
+
+.item-main img {
+  width: 10px;
+}
+
+.item-job {
+  text-transform: capitalize;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 40px 0 0 30px;
+}
+
+.item-main {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.item-footer-text > img {
+  width: 15px;
+}
+
+.item-main-icon {
+  margin-right: 20px;
+}
+
+
+.item-main-subtext {
+  color: gray;
+  font-size: 12px;
+}
+
+.our-item > hr {
+  margin: 0 30px;
+  border: none;
+  outline: none;
+  background-color: gray;
+  height: 1px;
+}
+
+.item-footer {
+  padding: 20px 0 40px 30px;
+  display: flex;
+}
+
+.item-footer >.second {
+  margin: 0 30px;
+}
+
+.item-footer-text {
+  display: flex;
+  align-items: center;
+}
+
+.item-footer-text img {
+  margin-right: 7px;
 }
